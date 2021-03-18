@@ -14,6 +14,24 @@
 
 # Set the user's default shell.
 usershell="/bin/zsh"
+# OS name used for startup screen, etc.
+os_name="Onion Linux"
+
+# OS name used for the name of the image file.
+iso_name=onionlinux
+
+# Image file label
+iso_label="ONION_$(date +%Y%m)"
+
+# Image file creator information
+iso_publisher="Onion Linux <http://www.archlinux.org>"
+
+# Image file name (not file name)
+iso_application="Onion Linux Live/Rescue CD"
+
+# Image file version
+iso_version=$(date +%Y.%m.%d)
+
 
 # Modules to include
 # An array of module directory names to include.
